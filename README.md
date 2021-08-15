@@ -1,0 +1,2 @@
+# stoopidoo
+native language chatbot
