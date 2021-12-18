@@ -2,12 +2,12 @@
 # frozen_string_literal: true
 
 @data = {
-	default: [
-	'ka din!', 
-	'pero hindi masyado, sakto lang', 
-	'ang hilig mo di ba?',
-	'yung katabi mo?'
-	],
+  default: [
+  'ka din!', 
+  'pero hindi masyado, sakto lang', 
+  'ang hilig mo di ba?',
+  'yung katabi mo?'
+  ],
   presubs: {
     'hate' => 'love',
     'love' => 'hate',
@@ -34,67 +34,67 @@
   },
   
   interjection: [
-  	'isigaw pa ba?! ...', 
-  	'katakot ka naman ! ...', 
-  	'kailangan bang isigaw pa?! ...', 
-  	'parang galit ka yata ? ...', 
-  	'galit ka ba? ...', 
-  	'galit ka? ...', 
-  	],
+    'isigaw pa ba?! ...', 
+    'katakot ka naman ! ...', 
+    'kailangan bang isigaw pa?! ...', 
+    'parang galit ka yata ? ...', 
+    'galit ka ba? ...', 
+    'galit ka? ...', 
+    ],
   
   query: [
-  	'teka..i mean, wait lang :-)', 
-  	'tanong ba yan ?...', 
-  	'hmm...', 
-		'teka teka ',
-		'Buti naitanong mo..', 
-		'tinatanong pa ba yan ?..', 
-  	'oh..',
-  	'ows..', 
-  	'di nga?..', 
-  	'good question!', 
-  	'trick question ba yan? ', 
-  	'now that you mentioned it...', 
-  	'ha? ...', 
-  	'huh? ...', 
-  	'weh? ...', 
-  	'what do you mean? ...',
-  	'ano kamo ? ...',
-  	'ngak ? ...',
-  	'ano ibig mo sabihin? ...',
-  	'you made me think...',
-  	'let me think...',
-  	'esep esep...',
-  	'pag-iisipan ko muna...'
-  	],
+    'teka..i mean, wait lang :-)', 
+    'tanong ba yan ?...', 
+    'hmm...', 
+    'teka teka ',
+    'Buti naitanong mo..', 
+    'tinatanong pa ba yan ?..', 
+    'oh..',
+    'ows..', 
+    'di nga?..', 
+    'good question!', 
+    'trick question ba yan? ', 
+    'now that you mentioned it...', 
+    'ha? ...', 
+    'huh? ...', 
+    'weh? ...', 
+    'what do you mean? ...',
+    'ano kamo ? ...',
+    'ngak ? ...',
+    'ano ibig mo sabihin? ...',
+    'you made me think...',
+    'let me think...',
+    'esep esep...',
+    'pag-iisipan ko muna...'
+    ],
 
   normal: [
-  	'teka..i mean, wait lang :-)', 
-  	'wait lang...', 
-  	'hmm...', 
-		'...',
-  	'oh..', 
-  	'ows..', 
-  	'e di ..', 
-  	'eh di ..', 
-  	'yun na nga..', 
-  	'sabi ko nga..', 
-  	'yan nga..', 
-  	'talaga lang ha ', 
-  	'talaga naman ', 
-  	'yan na nga ba sinasabi ko..', 
-  	'ah ...', 
-  	'ayun ...', 
-  	'chika ha ...', 
-  	'i see ...', 
-  	'yeah ...', 
-  	'ha? ...', 
-  	'huh? ...', 
-  	'weh? ...', 
-  	'right ...',
-  	'ibig sabihin ...',
-  	'copy ...',
-  	],
+    'teka..i mean, wait lang :-)', 
+    'wait lang...', 
+    'hmm...', 
+    '...',
+    'oh..', 
+    'ows..', 
+    'e di ..', 
+    'eh di ..', 
+    'yun na nga..', 
+    'sabi ko nga..', 
+    'yan nga..', 
+    'talaga lang ha ', 
+    'talaga naman ', 
+    'yan na nga ba sinasabi ko..', 
+    'ah ...', 
+    'ayun ...', 
+    'chika ha ...', 
+    'i see ...', 
+    'yeah ...', 
+    'ha? ...', 
+    'huh? ...', 
+    'weh? ...', 
+    'right ...',
+    'ibig sabihin ...',
+    'copy ...',
+    ],
   
   normalize: {
     'san' => 'saan',
@@ -205,19 +205,19 @@
       'Wag na ako *. Ikaw na lang'
     ],
 
-		'mahilig ka ba (.*)' =>[
-			'Gusto ko * din',
-			'*? Sino ba naman may ayaw nyan?',
-			'Di masyado. Sakto lang',
+    'mahilig ka ba (.*)' =>[
+      'Gusto ko * din',
+      '*? Sino ba naman may ayaw nyan?',
+      'Di masyado. Sakto lang',
       'Yan ang gusto ko, *?',
       'Oo *! gusto ko yan!',
-		],
+    ],
 
     
-		'(.*) ka' =>[
-			'Hindi masyadong *. Sakto lang',
-			'* din',
-			'Bet ko mga *?',
+    '(.*) ka' =>[
+      'Hindi masyadong *. Sakto lang',
+      '* din',
+      'Bet ko mga *?',
       'Yan ang mga hilig ko, mag-* ba?',
       'Ay oo * ako! * ka din ba?',
       'Pareho lang siguro tayong * ano?',
@@ -228,8 +228,8 @@
       "Ako si #{@chatbot} ang nag-iisang *!",
       'Sus! Experto ako dyan sa pagka-*',
       '*! As in!'
-		],
-		
+    ],
+    
     'you are (.*)' => [
       'What makes you think I am *?',
       'Are you so sure I am *?'
@@ -303,7 +303,7 @@
     ],
     
     'why can\'t you (.*)' => [
-    	'Do you want me to *?'
+      'Do you want me to *?'
     ],
     
     'hates *' => [
