@@ -22,7 +22,7 @@ def typewrite(s, t = 0.06)
 end
 
 def start_conversation(greet = 'hey, hey! wanna chat?')
-	@user = "hooman"
+  @user = "hooman"
   command('clear')
   typewrite "#{greet}\n"
   typewrite "#{answer_keyword('sino')}\n"
